@@ -1,0 +1,91 @@
+.navbar {
+    box-shadow: 2px 2px 10px #859194;
+}
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-clickable:link,
+.card-clickable:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+.card-clickable img {
+    transform: scale(.9);
+    transition: all .5s;
+}
+.card-clickable:hover img {
+    transform: scale(1);
+}
+
+.articleImg {
+    height: 200px;
+    object-fit: cover;
+}
+
+.articletext {
+    display: block;
+    display: -webkit-box;
+    height: 67px;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: clip;
+    overflow: hidden;
+
+}
+
+.pre-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #555;
+}
+
+
+.article-actions {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+#edit-img {
+    width: 200px;
+    border-radius: 4px;
+}
+
+.image-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#updateImage {
+    width: 250px;
+    border: 1px solid #777;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.fas {
+    padding-right: 5px;
+}
+
+#articles {
+    min-height: 55vh;
+}
+
+
+.img-large {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    -webkit-box-shadow: 2px 3px 30px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 30px -5px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 30px -5px rgba(0,0,0,0.75);
+    border-radius: 3px;
+}
+
